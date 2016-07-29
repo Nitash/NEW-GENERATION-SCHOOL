@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="comn.example.admin.newgenerationschool.SCHOOL">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:scaleType="fitXY"
+        android:background="@drawable/ngs" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMRAN YOUNIS DURRANI"
+        android:layout_marginTop="210dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:id="@+id/textview"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.5"
+        android:layout_marginTop="270sp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        />
+        <ImageView
+            android:layout_width="95sp"
+            android:layout_height="35sp"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/ratingstars"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="105 reviews - $$"
+            android:layout_marginTop="270sp"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:layout_marginLeft="10sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 min"
+            android:layout_marginTop="270sp"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="16sp"
+            />
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="               ADMISSIONS OPEN FROM
+                      MONT - MATRIC"
+        android:onClick="clickHandler"
+        android:textSize="19dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="310dp"
+        />
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="CALL"
+             android:layout_marginTop="410sp"
+             android:layout_marginLeft="50dp"
+             android:textSize="15dp"
+             android:textColor="@android:color/holo_blue_dark"
+             />
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="43sp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="-45sp"
+        android:background="@drawable/index"
+        />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="SAVE"
+             android:layout_marginTop="410sp"
+             android:layout_marginLeft="70dp"
+             android:textSize="15dp"
+             android:textColor="@android:color/holo_blue_dark"
+             />
+
+         <ImageView
+             android:layout_width="50sp"
+             android:layout_height="43sp"
+             android:layout_marginTop="360dp"
+             android:layout_marginLeft="-45sp"
+             android:background="@drawable/index2"
+             />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="WEBSITE"
+             android:layout_marginTop="410sp"
+             android:layout_marginLeft="60dp"
+             android:textSize="15dp"
+             android:textColor="@android:color/holo_blue_dark"
+             />
+         <ImageView
+             android:layout_width="50sp"
+             android:layout_height="43sp"
+             android:layout_marginTop="360dp"
+             android:layout_marginLeft="-60sp"
+             android:background="@drawable/index1"
+             />
+
+         <ImageView
+             android:layout_width="35sp"
+             android:layout_height="35sp"
+             android:layout_marginTop="430dp"
+             android:layout_marginLeft="-323sp"
+             android:background="@drawable/index4"
+             />
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B-05,Sector Z-06,Gulshan-e-Maymar,Karachi.
+            CONTACT N0: 34635154"
+            android:layout_marginTop="440sp"
+            android:layout_marginLeft="35sp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            />
+
+
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
